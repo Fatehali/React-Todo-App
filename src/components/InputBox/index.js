@@ -29,7 +29,7 @@ export default function InputBox() {
 
     return (
         <>
-            <input type="text" id="inputBox"
+            <input type="text" id="inputBox" placeholder='I want to read book...'
                     onKeyDown={ handleKeyDown } autoFocus/>
             
             <TodoPanel data={ todoArr } />

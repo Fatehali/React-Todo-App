@@ -1,0 +1,19 @@
+#navBar {
+    display: flex;
+}
+
+#navBar button {
+    flex-grow: 1;
+    background-color: #444a57;
+    font-size: large;
+    color: rgb(187, 184, 184);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#navBar button:hover {
+    background-color: #787e8a;
+    color: rgb(218, 216, 216);
+}
